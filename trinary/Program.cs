@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
+// 프로그래머스 코딩테스트 연습
+// 3진법 뒤집기
+
 namespace trinary
 {
     class MainClass
@@ -73,6 +76,12 @@ namespace trinary
                 }
                 return answer;
             }
+
+            // Test
+            int triResult1 = Solution(45);
+            int triResult2 = Solution(125);
+            Console.WriteLine(triResult1);
+            Console.WriteLine(triResult2);
         }
     }
 }
